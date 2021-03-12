@@ -1,0 +1,24 @@
+{
+  "name": "justyy",
+  "version": "1.0.0",
+  "description": "my vuepress blog",
+  "author": "Chris_Duan",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.8.0",
+    "vuepress": "1.7.1",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-meting": "^0.2.1",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-theme-reco": "1.6.1"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "vue-canvas-effect": "0.0.12"
+  }
+}

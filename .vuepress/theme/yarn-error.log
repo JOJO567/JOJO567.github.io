@@ -1,0 +1,64 @@
+Arguments: 
+  H:\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js set version berry
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;D:\Git LFS;C:\Program Files (x86)\Yarn\bin\;G:\nvm;C:\Program Files\nodejs;G:\nvm\v14.4.0;H:\nodejs\;G:\Ruby27-x64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;G:\PyCharm Community Edition 2019.2.1\bin;;E:\Microsoft VS Code\bin;F:\GPAC;C:\Users\Administrator\AppData\Local\Yarn\bin;G:\nvm;C:\Program Files\nodejs;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)
+
+npm manifest: 
+  {
+    "name": "vuepress-theme-reco",
+    "version": "1.6.1",
+    "description": "A simple and beautiful vuepress Blog & Doc theme.",
+    "keywords": [
+      "vuepress",
+      "vue",
+      "theme"
+    ],
+    "homepage": "https://vuepress-theme-reco.recoluan.com",
+    "bugs": {
+      "url": "https://github.com/vuepress-reco/vuepress-theme-reco/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vuepress-reco/vuepress-theme-reco.git"
+    },
+    "license": "MIT",
+    "author": "reco_luan",
+    "main": "index.js",
+    "dependencies": {
+      "@vue/composition-api": "^1.0.0-beta.20",
+      "@vuepress-reco/core": "^1.6.0",
+      "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.0",
+      "@vuepress-reco/vuepress-plugin-comments": "^1.6.0",
+      "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
+      "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
+      "@vuepress/plugin-blog": "1.9.2",
+      "@vuepress/plugin-medium-zoom": "1.5.0",
+      "docsearch.js": "2.6.3",
+      "md5": "2.2.1",
+      "vue-click-outside": "1.1.0",
+      "vuepress-plugin-smooth-scroll": "^0.0.9"
+    },
+    "gitHead": "ec1eb4190d3f519026691cfa305c1b11bef43806",
+    "_from": "vuepress-theme-reco@0.2.1",
+    "_resolved": "http://registry.npm.taobao.org/vuepress-theme-reco/download/vuepress-theme-reco-0.2.1.tgz"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
